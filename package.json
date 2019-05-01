@@ -2,9 +2,8 @@
   "name": "onepage-journal",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://dbarochiya.github.io/onepageJournal",
   "dependencies": {
-    "gh-pages": "^2.0.1",
+    "firebase": "^5.10.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-redux": "^7.0.2",
@@ -13,11 +12,10 @@
     "react-scripts": "2.1.8",
     "react-tippy": "^1.2.3",
     "react-tooltip": "^3.10.0",
+    "recompose": "^0.30.0",
     "redux": "^4.0.1"
   },
   "scripts": {
-    "predeploy": "npm run build",
-		"deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
